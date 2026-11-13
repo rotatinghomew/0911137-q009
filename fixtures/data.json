@@ -1,0 +1,3665 @@
+{
+  "meta": {
+    "name": "园区用量剖面台",
+    "description": "readings 中 mode=counter 是累计读数，mode=interval 是该段用量；start/end 为天序号半开区间。",
+    "groups": [
+      "厂区甲",
+      "厂区乙"
+    ],
+    "default_cutoff": 100,
+    "min_cutoff": 0,
+    "max_cutoff": 200
+  },
+  "tables": {
+    "readings": [
+      {
+        "reading_id": "厂区甲-1",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 0,
+        "end": 1,
+        "mode": "counter",
+        "value": 1152.95,
+        "revision": 1,
+        "known_day": 1
+      },
+      {
+        "reading_id": "厂区甲-2",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 1,
+        "end": 2,
+        "mode": "counter",
+        "value": 1298.32,
+        "revision": 1,
+        "known_day": 2
+      },
+      {
+        "reading_id": "厂区甲-3",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 2,
+        "end": 3,
+        "mode": "counter",
+        "value": 1440.05,
+        "revision": 1,
+        "known_day": 3
+      },
+      {
+        "reading_id": "厂区甲-4",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 3,
+        "end": 4,
+        "mode": "counter",
+        "value": 1601.51,
+        "revision": 1,
+        "known_day": 4
+      },
+      {
+        "reading_id": "厂区甲-5",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 4,
+        "end": 5,
+        "mode": "counter",
+        "value": 1726.96,
+        "revision": 1,
+        "known_day": 5
+      },
+      {
+        "reading_id": "厂区甲-6",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 5,
+        "end": 6,
+        "mode": "counter",
+        "value": 1860.7,
+        "revision": 1,
+        "known_day": 6
+      },
+      {
+        "reading_id": "厂区甲-7",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 6,
+        "end": 7,
+        "mode": "counter",
+        "value": 2016.85,
+        "revision": 1,
+        "known_day": 7
+      },
+      {
+        "reading_id": "厂区甲-8",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 7,
+        "end": 8,
+        "mode": "counter",
+        "value": 2174.39,
+        "revision": 1,
+        "known_day": 8
+      },
+      {
+        "reading_id": "厂区甲-9",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 8,
+        "end": 9,
+        "mode": "counter",
+        "value": 2333.08,
+        "revision": 1,
+        "known_day": 9
+      },
+      {
+        "reading_id": "厂区甲-10",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 9,
+        "end": 10,
+        "mode": "counter",
+        "value": 2498.02,
+        "revision": 1,
+        "known_day": 10
+      },
+      {
+        "reading_id": "厂区甲-11",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 10,
+        "end": 11,
+        "mode": "counter",
+        "value": 2665.55,
+        "revision": 1,
+        "known_day": 11
+      },
+      {
+        "reading_id": "厂区甲-12",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 11,
+        "end": 12,
+        "mode": "counter",
+        "value": 2802.12,
+        "revision": 1,
+        "known_day": 12
+      },
+      {
+        "reading_id": "厂区甲-13",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 12,
+        "end": 13,
+        "mode": "counter",
+        "value": 2930.35,
+        "revision": 1,
+        "known_day": 13
+      },
+      {
+        "reading_id": "厂区甲-14",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 13,
+        "end": 14,
+        "mode": "counter",
+        "value": 3094.34,
+        "revision": 1,
+        "known_day": 14
+      },
+      {
+        "reading_id": "厂区甲-15",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 14,
+        "end": 15,
+        "mode": "counter",
+        "value": 3251.59,
+        "revision": 1,
+        "known_day": 15
+      },
+      {
+        "reading_id": "厂区甲-16",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 15,
+        "end": 16,
+        "mode": "counter",
+        "value": 3414.3,
+        "revision": 1,
+        "known_day": 16
+      },
+      {
+        "reading_id": "厂区甲-17",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 16,
+        "end": 17,
+        "mode": "counter",
+        "value": 3579.21,
+        "revision": 1,
+        "known_day": 17
+      },
+      {
+        "reading_id": "厂区甲-18",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 17,
+        "end": 18,
+        "mode": "counter",
+        "value": 3748.14,
+        "revision": 1,
+        "known_day": 18
+      },
+      {
+        "reading_id": "厂区甲-19",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 18,
+        "end": 19,
+        "mode": "counter",
+        "value": 3881.08,
+        "revision": 1,
+        "known_day": 19
+      },
+      {
+        "reading_id": "厂区甲-20",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 19,
+        "end": 20,
+        "mode": "counter",
+        "value": 4008.44,
+        "revision": 1,
+        "known_day": 20
+      },
+      {
+        "reading_id": "厂区甲-21",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 20,
+        "end": 21,
+        "mode": "counter",
+        "value": 4178.39,
+        "revision": 1,
+        "known_day": 21
+      },
+      {
+        "reading_id": "厂区甲-22",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 21,
+        "end": 22,
+        "mode": "counter",
+        "value": 4343.35,
+        "revision": 1,
+        "known_day": 22
+      },
+      {
+        "reading_id": "厂区甲-23",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 22,
+        "end": 23,
+        "mode": "counter",
+        "value": 4514.52,
+        "revision": 1,
+        "known_day": 23
+      },
+      {
+        "reading_id": "厂区甲-24",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 23,
+        "end": 24,
+        "mode": "counter",
+        "value": 4678.45,
+        "revision": 1,
+        "known_day": 24
+      },
+      {
+        "reading_id": "厂区甲-25",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 24,
+        "end": 25,
+        "mode": "counter",
+        "value": 4839.34,
+        "revision": 1,
+        "known_day": 25
+      },
+      {
+        "reading_id": "厂区甲-26",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 25,
+        "end": 26,
+        "mode": "counter",
+        "value": 4974.45,
+        "revision": 1,
+        "known_day": 26
+      },
+      {
+        "reading_id": "厂区甲-27",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 26,
+        "end": 27,
+        "mode": "counter",
+        "value": 5110.76,
+        "revision": 1,
+        "known_day": 27
+      },
+      {
+        "reading_id": "厂区甲-28",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 27,
+        "end": 28,
+        "mode": "counter",
+        "value": 5269.3,
+        "revision": 1,
+        "known_day": 28
+      },
+      {
+        "reading_id": "厂区甲-29",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 28,
+        "end": 29,
+        "mode": "counter",
+        "value": 5436.78,
+        "revision": 1,
+        "known_day": 29
+      },
+      {
+        "reading_id": "厂区甲-30",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 29,
+        "end": 30,
+        "mode": "counter",
+        "value": 5599.5,
+        "revision": 1,
+        "known_day": 30
+      },
+      {
+        "reading_id": "厂区甲-31",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 30,
+        "end": 31,
+        "mode": "counter",
+        "value": 5756.66,
+        "revision": 1,
+        "known_day": 31
+      },
+      {
+        "reading_id": "厂区甲-32",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 31,
+        "end": 32,
+        "mode": "counter",
+        "value": 5915.93,
+        "revision": 1,
+        "known_day": 32
+      },
+      {
+        "reading_id": "厂区甲-33",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 32,
+        "end": 33,
+        "mode": "counter",
+        "value": 6038.23,
+        "revision": 1,
+        "known_day": 33
+      },
+      {
+        "reading_id": "厂区甲-34",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 33,
+        "end": 34,
+        "mode": "counter",
+        "value": 6157.44,
+        "revision": 1,
+        "known_day": 34
+      },
+      {
+        "reading_id": "厂区甲-35",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 34,
+        "end": 35,
+        "mode": "counter",
+        "value": 6309.66,
+        "revision": 1,
+        "known_day": 35
+      },
+      {
+        "reading_id": "厂区甲-36",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 35,
+        "end": 36,
+        "mode": "counter",
+        "value": 6461.25,
+        "revision": 1,
+        "known_day": 36
+      },
+      {
+        "reading_id": "厂区甲-37",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 36,
+        "end": 37,
+        "mode": "counter",
+        "value": 6608.78,
+        "revision": 1,
+        "known_day": 37
+      },
+      {
+        "reading_id": "厂区甲-38",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 37,
+        "end": 38,
+        "mode": "counter",
+        "value": 6763.65,
+        "revision": 1,
+        "known_day": 38
+      },
+      {
+        "reading_id": "厂区甲-39",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 38,
+        "end": 39,
+        "mode": "counter",
+        "value": 6914.98,
+        "revision": 1,
+        "known_day": 39
+      },
+      {
+        "reading_id": "厂区甲-40",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 39,
+        "end": 40,
+        "mode": "counter",
+        "value": 7024.43,
+        "revision": 1,
+        "known_day": 40
+      },
+      {
+        "reading_id": "厂区甲-41",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 40,
+        "end": 41,
+        "mode": "counter",
+        "value": 7136.08,
+        "revision": 1,
+        "known_day": 41
+      },
+      {
+        "reading_id": "厂区甲-42",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 41,
+        "end": 42,
+        "mode": "counter",
+        "value": 7279.09,
+        "revision": 1,
+        "known_day": 42
+      },
+      {
+        "reading_id": "厂区甲-43",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 42,
+        "end": 43,
+        "mode": "counter",
+        "value": 7423.23,
+        "revision": 1,
+        "known_day": 43
+      },
+      {
+        "reading_id": "厂区甲-44",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 43,
+        "end": 44,
+        "mode": "counter",
+        "value": 7564.4,
+        "revision": 1,
+        "known_day": 44
+      },
+      {
+        "reading_id": "厂区甲-45",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 44,
+        "end": 45,
+        "mode": "counter",
+        "value": 7703.4,
+        "revision": 1,
+        "known_day": 45
+      },
+      {
+        "reading_id": "厂区甲-46",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 45,
+        "end": 46,
+        "mode": "counter",
+        "value": 7843.49,
+        "revision": 1,
+        "known_day": 46
+      },
+      {
+        "reading_id": "厂区甲-47",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 46,
+        "end": 47,
+        "mode": "counter",
+        "value": 7950.87,
+        "revision": 1,
+        "known_day": 47
+      },
+      {
+        "reading_id": "厂区甲-48",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 47,
+        "end": 48,
+        "mode": "counter",
+        "value": 8059.22,
+        "revision": 1,
+        "known_day": 48
+      },
+      {
+        "reading_id": "厂区甲-49",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 48,
+        "end": 49,
+        "mode": "counter",
+        "value": 8195.11,
+        "revision": 1,
+        "known_day": 49
+      },
+      {
+        "reading_id": "厂区甲-50",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 49,
+        "end": 50,
+        "mode": "counter",
+        "value": 8325.86,
+        "revision": 1,
+        "known_day": 50
+      },
+      {
+        "reading_id": "厂区甲-51",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 50,
+        "end": 51,
+        "mode": "counter",
+        "value": 8456.45,
+        "revision": 1,
+        "known_day": 51
+      },
+      {
+        "reading_id": "厂区甲-52",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 51,
+        "end": 52,
+        "mode": "counter",
+        "value": 8591.71,
+        "revision": 1,
+        "known_day": 52
+      },
+      {
+        "reading_id": "厂区甲-53",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 52,
+        "end": 53,
+        "mode": "counter",
+        "value": 8721.29,
+        "revision": 1,
+        "known_day": 53
+      },
+      {
+        "reading_id": "厂区甲-54",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 53,
+        "end": 54,
+        "mode": "counter",
+        "value": 8826.48,
+        "revision": 1,
+        "known_day": 54
+      },
+      {
+        "reading_id": "厂区甲-55",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 54,
+        "end": 55,
+        "mode": "counter",
+        "value": 8931.67,
+        "revision": 1,
+        "known_day": 55
+      },
+      {
+        "reading_id": "厂区甲-56",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 55,
+        "end": 56,
+        "mode": "counter",
+        "value": 9069.48,
+        "revision": 1,
+        "known_day": 56
+      },
+      {
+        "reading_id": "厂区甲-57",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 56,
+        "end": 57,
+        "mode": "counter",
+        "value": 9205.5,
+        "revision": 1,
+        "known_day": 57
+      },
+      {
+        "reading_id": "厂区甲-58",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 57,
+        "end": 58,
+        "mode": "counter",
+        "value": 9337.75,
+        "revision": 1,
+        "known_day": 58
+      },
+      {
+        "reading_id": "厂区甲-59",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 58,
+        "end": 59,
+        "mode": "counter",
+        "value": 9467.07,
+        "revision": 1,
+        "known_day": 59
+      },
+      {
+        "reading_id": "厂区甲-60",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 59,
+        "end": 60,
+        "mode": "counter",
+        "value": 9608.06,
+        "revision": 1,
+        "known_day": 60
+      },
+      {
+        "reading_id": "厂区甲-61",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 60,
+        "end": 61,
+        "mode": "counter",
+        "value": 103.0,
+        "revision": 1,
+        "known_day": 61
+      },
+      {
+        "reading_id": "厂区甲-62",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 61,
+        "end": 62,
+        "mode": "counter",
+        "value": 196.66,
+        "revision": 1,
+        "known_day": 62
+      },
+      {
+        "reading_id": "厂区甲-63",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 62,
+        "end": 63,
+        "mode": "counter",
+        "value": 333.97,
+        "revision": 1,
+        "known_day": 63
+      },
+      {
+        "reading_id": "厂区甲-64",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 63,
+        "end": 64,
+        "mode": "counter",
+        "value": 477.83,
+        "revision": 1,
+        "known_day": 64
+      },
+      {
+        "reading_id": "厂区甲-65",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 64,
+        "end": 65,
+        "mode": "counter",
+        "value": 621.78,
+        "revision": 1,
+        "known_day": 65
+      },
+      {
+        "reading_id": "厂区甲-66",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 65,
+        "end": 66,
+        "mode": "counter",
+        "value": 738.63,
+        "revision": 1,
+        "known_day": 66
+      },
+      {
+        "reading_id": "厂区甲-67",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 66,
+        "end": 67,
+        "mode": "counter",
+        "value": 863.3,
+        "revision": 1,
+        "known_day": 67
+      },
+      {
+        "reading_id": "厂区甲-68",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 67,
+        "end": 68,
+        "mode": "counter",
+        "value": 963.57,
+        "revision": 1,
+        "known_day": 68
+      },
+      {
+        "reading_id": "厂区甲-69",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 68,
+        "end": 69,
+        "mode": "counter",
+        "value": 1061.89,
+        "revision": 1,
+        "known_day": 69
+      },
+      {
+        "reading_id": "厂区甲-70",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 69,
+        "end": 70,
+        "mode": "counter",
+        "value": 1199.22,
+        "revision": 1,
+        "known_day": 70
+      },
+      {
+        "reading_id": "厂区甲-71",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 70,
+        "end": 71,
+        "mode": "counter",
+        "value": 1329.28,
+        "revision": 1,
+        "known_day": 71
+      },
+      {
+        "reading_id": "厂区甲-72",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 71,
+        "end": 72,
+        "mode": "counter",
+        "value": 1462.58,
+        "revision": 1,
+        "known_day": 72
+      },
+      {
+        "reading_id": "厂区甲-73",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 72,
+        "end": 73,
+        "mode": "counter",
+        "value": 1594.17,
+        "revision": 1,
+        "known_day": 73
+      },
+      {
+        "reading_id": "厂区甲-74",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 73,
+        "end": 74,
+        "mode": "counter",
+        "value": 1731.83,
+        "revision": 1,
+        "known_day": 74
+      },
+      {
+        "reading_id": "厂区甲-75",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 74,
+        "end": 75,
+        "mode": "counter",
+        "value": 1831.5,
+        "revision": 1,
+        "known_day": 75
+      },
+      {
+        "reading_id": "厂区甲-76",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 75,
+        "end": 76,
+        "mode": "counter",
+        "value": 1948.87,
+        "revision": 1,
+        "known_day": 76
+      },
+      {
+        "reading_id": "厂区甲-77",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 76,
+        "end": 77,
+        "mode": "counter",
+        "value": 2088.17,
+        "revision": 1,
+        "known_day": 77
+      },
+      {
+        "reading_id": "厂区甲-78",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 77,
+        "end": 78,
+        "mode": "counter",
+        "value": 2223.46,
+        "revision": 1,
+        "known_day": 78
+      },
+      {
+        "reading_id": "厂区甲-79",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 78,
+        "end": 79,
+        "mode": "counter",
+        "value": 2362.13,
+        "revision": 1,
+        "known_day": 79
+      },
+      {
+        "reading_id": "厂区甲-80",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 79,
+        "end": 80,
+        "mode": "counter",
+        "value": 2502.77,
+        "revision": 1,
+        "known_day": 80
+      },
+      {
+        "reading_id": "厂区甲-81",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 80,
+        "end": 81,
+        "mode": "counter",
+        "value": 2655.92,
+        "revision": 1,
+        "known_day": 81
+      },
+      {
+        "reading_id": "厂区甲-82",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 81,
+        "end": 82,
+        "mode": "counter",
+        "value": 2772.9,
+        "revision": 1,
+        "known_day": 82
+      },
+      {
+        "reading_id": "厂区甲-83",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 82,
+        "end": 83,
+        "mode": "counter",
+        "value": 2877.03,
+        "revision": 1,
+        "known_day": 83
+      },
+      {
+        "reading_id": "厂区甲-84",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 83,
+        "end": 84,
+        "mode": "counter",
+        "value": 3023.82,
+        "revision": 1,
+        "known_day": 84
+      },
+      {
+        "reading_id": "厂区甲-85",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 84,
+        "end": 85,
+        "mode": "counter",
+        "value": 3169.98,
+        "revision": 1,
+        "known_day": 85
+      },
+      {
+        "reading_id": "厂区甲-86",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 85,
+        "end": 86,
+        "mode": "counter",
+        "value": 3316.48,
+        "revision": 1,
+        "known_day": 86
+      },
+      {
+        "reading_id": "厂区甲-87",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 86,
+        "end": 87,
+        "mode": "counter",
+        "value": 3466.41,
+        "revision": 1,
+        "known_day": 87
+      },
+      {
+        "reading_id": "厂区甲-88",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 87,
+        "end": 88,
+        "mode": "counter",
+        "value": 3619.6,
+        "revision": 1,
+        "known_day": 88
+      },
+      {
+        "reading_id": "厂区甲-89",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 88,
+        "end": 89,
+        "mode": "counter",
+        "value": 3741.74,
+        "revision": 1,
+        "known_day": 89
+      },
+      {
+        "reading_id": "厂区甲-90",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 89,
+        "end": 90,
+        "mode": "counter",
+        "value": 3864.74,
+        "revision": 1,
+        "known_day": 90
+      },
+      {
+        "reading_id": "厂区甲-91",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 90,
+        "end": 91,
+        "mode": "counter",
+        "value": 4019.27,
+        "revision": 1,
+        "known_day": 91
+      },
+      {
+        "reading_id": "厂区甲-92",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 91,
+        "end": 92,
+        "mode": "counter",
+        "value": 4166.84,
+        "revision": 1,
+        "known_day": 92
+      },
+      {
+        "reading_id": "厂区甲-93",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 92,
+        "end": 93,
+        "mode": "counter",
+        "value": 4314.8,
+        "revision": 1,
+        "known_day": 93
+      },
+      {
+        "reading_id": "厂区甲-94",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 93,
+        "end": 94,
+        "mode": "counter",
+        "value": 4461.69,
+        "revision": 1,
+        "known_day": 94
+      },
+      {
+        "reading_id": "厂区甲-95",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 94,
+        "end": 95,
+        "mode": "counter",
+        "value": 4614.07,
+        "revision": 1,
+        "known_day": 95
+      },
+      {
+        "reading_id": "厂区甲-96",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 95,
+        "end": 96,
+        "mode": "counter",
+        "value": 4734.9,
+        "revision": 1,
+        "known_day": 96
+      },
+      {
+        "reading_id": "厂区甲-97",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 96,
+        "end": 97,
+        "mode": "counter",
+        "value": 4853.67,
+        "revision": 1,
+        "known_day": 97
+      },
+      {
+        "reading_id": "厂区甲-98",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 97,
+        "end": 98,
+        "mode": "counter",
+        "value": 5013.79,
+        "revision": 1,
+        "known_day": 98
+      },
+      {
+        "reading_id": "厂区甲-99",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 98,
+        "end": 99,
+        "mode": "counter",
+        "value": 5169.36,
+        "revision": 1,
+        "known_day": 99
+      },
+      {
+        "reading_id": "厂区甲-100",
+        "site": "厂区甲",
+        "meter": "厂区甲-new",
+        "start": 99,
+        "end": 100,
+        "mode": "counter",
+        "value": 5318.99,
+        "revision": 1,
+        "known_day": 100
+      },
+      {
+        "reading_id": "厂区乙-1",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 0,
+        "end": 1,
+        "mode": "interval",
+        "value": 153.79,
+        "revision": 1,
+        "known_day": 1
+      },
+      {
+        "reading_id": "厂区乙-2",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 1,
+        "end": 2,
+        "mode": "interval",
+        "value": 148.76,
+        "revision": 1,
+        "known_day": 2
+      },
+      {
+        "reading_id": "厂区乙-3",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 2,
+        "end": 3,
+        "mode": "interval",
+        "value": 150.93,
+        "revision": 1,
+        "known_day": 3
+      },
+      {
+        "reading_id": "厂区乙-4",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 3,
+        "end": 4,
+        "mode": "interval",
+        "value": 155.75,
+        "revision": 1,
+        "known_day": 4
+      },
+      {
+        "reading_id": "厂区乙-5",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 4,
+        "end": 5,
+        "mode": "interval",
+        "value": 119.86,
+        "revision": 1,
+        "known_day": 5
+      },
+      {
+        "reading_id": "厂区乙-6",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 5,
+        "end": 6,
+        "mode": "interval",
+        "value": 124.89,
+        "revision": 1,
+        "known_day": 6
+      },
+      {
+        "reading_id": "厂区乙-7",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 6,
+        "end": 7,
+        "mode": "interval",
+        "value": 162.51,
+        "revision": 1,
+        "known_day": 7
+      },
+      {
+        "reading_id": "厂区乙-8",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 7,
+        "end": 8,
+        "mode": "interval",
+        "value": 159.27,
+        "revision": 1,
+        "known_day": 8
+      },
+      {
+        "reading_id": "厂区乙-9",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 8,
+        "end": 9,
+        "mode": "interval",
+        "value": 168.01,
+        "revision": 1,
+        "known_day": 9
+      },
+      {
+        "reading_id": "厂区乙-10",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 9,
+        "end": 10,
+        "mode": "interval",
+        "value": 159.99,
+        "revision": 1,
+        "known_day": 10
+      },
+      {
+        "reading_id": "厂区乙-11",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 10,
+        "end": 11,
+        "mode": "interval",
+        "value": 147.35,
+        "revision": 1,
+        "known_day": 11
+      },
+      {
+        "reading_id": "厂区乙-12",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 11,
+        "end": 12,
+        "mode": "interval",
+        "value": 130.51,
+        "revision": 1,
+        "known_day": 12
+      },
+      {
+        "reading_id": "厂区乙-13",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 12,
+        "end": 13,
+        "mode": "interval",
+        "value": 124.27,
+        "revision": 1,
+        "known_day": 13
+      },
+      {
+        "reading_id": "厂区乙-14",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 13,
+        "end": 14,
+        "mode": "interval",
+        "value": 175.17,
+        "revision": 1,
+        "known_day": 14
+      },
+      {
+        "reading_id": "厂区乙-15",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 14,
+        "end": 15,
+        "mode": "interval",
+        "value": 167.72,
+        "revision": 1,
+        "known_day": 15
+      },
+      {
+        "reading_id": "厂区乙-16",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 15,
+        "end": 16,
+        "mode": "interval",
+        "value": 168.78,
+        "revision": 1,
+        "known_day": 16
+      },
+      {
+        "reading_id": "厂区乙-17",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 16,
+        "end": 17,
+        "mode": "interval",
+        "value": 170.44,
+        "revision": 1,
+        "known_day": 17
+      },
+      {
+        "reading_id": "厂区乙-18",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 17,
+        "end": 18,
+        "mode": "interval",
+        "value": 157.89,
+        "revision": 1,
+        "known_day": 18
+      },
+      {
+        "reading_id": "厂区乙-19",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 18,
+        "end": 19,
+        "mode": "interval",
+        "value": 130.77,
+        "revision": 1,
+        "known_day": 19
+      },
+      {
+        "reading_id": "厂区乙-20",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 19,
+        "end": 20,
+        "mode": "interval",
+        "value": 131.3,
+        "revision": 1,
+        "known_day": 20
+      },
+      {
+        "reading_id": "厂区乙-21",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 20,
+        "end": 21,
+        "mode": "interval",
+        "value": 164.78,
+        "revision": 1,
+        "known_day": 21
+      },
+      {
+        "reading_id": "厂区乙-22",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 21,
+        "end": 22,
+        "mode": "interval",
+        "value": 178.96,
+        "revision": 1,
+        "known_day": 22
+      },
+      {
+        "reading_id": "厂区乙-23",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 22,
+        "end": 23,
+        "mode": "interval",
+        "value": 163.25,
+        "revision": 1,
+        "known_day": 23
+      },
+      {
+        "reading_id": "厂区乙-24",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 23,
+        "end": 24,
+        "mode": "interval",
+        "value": 156.48,
+        "revision": 1,
+        "known_day": 24
+      },
+      {
+        "reading_id": "厂区乙-25",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 24,
+        "end": 25,
+        "mode": "interval",
+        "value": 162.7,
+        "revision": 1,
+        "known_day": 25
+      },
+      {
+        "reading_id": "厂区乙-26",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 25,
+        "end": 26,
+        "mode": "interval",
+        "value": 131.13,
+        "revision": 1,
+        "known_day": 26
+      },
+      {
+        "reading_id": "厂区乙-27",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 26,
+        "end": 27,
+        "mode": "interval",
+        "value": 133.61,
+        "revision": 1,
+        "known_day": 27
+      },
+      {
+        "reading_id": "厂区乙-28",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 27,
+        "end": 28,
+        "mode": "interval",
+        "value": 170.98,
+        "revision": 1,
+        "known_day": 28
+      },
+      {
+        "reading_id": "厂区乙-29",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 28,
+        "end": 29,
+        "mode": "interval",
+        "value": 162.27,
+        "revision": 1,
+        "known_day": 29
+      },
+      {
+        "reading_id": "厂区乙-30",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 29,
+        "end": 30,
+        "mode": "interval",
+        "value": 159.25,
+        "revision": 1,
+        "known_day": 30
+      },
+      {
+        "reading_id": "厂区乙-31",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 30,
+        "end": 31,
+        "mode": "interval",
+        "value": 151.06,
+        "revision": 1,
+        "known_day": 31
+      },
+      {
+        "reading_id": "厂区乙-32",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 31,
+        "end": 32,
+        "mode": "interval",
+        "value": 159.53,
+        "revision": 1,
+        "known_day": 32
+      },
+      {
+        "reading_id": "厂区乙-33",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 32,
+        "end": 33,
+        "mode": "interval",
+        "value": 122.13,
+        "revision": 1,
+        "known_day": 33
+      },
+      {
+        "reading_id": "厂区乙-34",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 33,
+        "end": 34,
+        "mode": "interval",
+        "value": 123.17,
+        "revision": 1,
+        "known_day": 34
+      },
+      {
+        "reading_id": "厂区乙-35",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 34,
+        "end": 35,
+        "mode": "interval",
+        "value": 154.12,
+        "revision": 1,
+        "known_day": 35
+      },
+      {
+        "reading_id": "厂区乙-36",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 35,
+        "end": 36,
+        "mode": "interval",
+        "value": 151.0,
+        "revision": 1,
+        "known_day": 36
+      },
+      {
+        "reading_id": "厂区乙-37",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 36,
+        "end": 37,
+        "mode": "interval",
+        "value": 152.33,
+        "revision": 1,
+        "known_day": 37
+      },
+      {
+        "reading_id": "厂区乙-38",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 37,
+        "end": 38,
+        "mode": "interval",
+        "value": 152.03,
+        "revision": 1,
+        "known_day": 38
+      },
+      {
+        "reading_id": "厂区乙-39",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 38,
+        "end": 39,
+        "mode": "interval",
+        "value": 157.52,
+        "revision": 1,
+        "known_day": 39
+      },
+      {
+        "reading_id": "厂区乙-40",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 39,
+        "end": 40,
+        "mode": "interval",
+        "value": 125.78,
+        "revision": 1,
+        "known_day": 40
+      },
+      {
+        "reading_id": "厂区乙-41",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 40,
+        "end": 41,
+        "mode": "interval",
+        "value": 120.54,
+        "revision": 1,
+        "known_day": 41
+      },
+      {
+        "reading_id": "厂区乙-42",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 41,
+        "end": 42,
+        "mode": "interval",
+        "value": 148.04,
+        "revision": 1,
+        "known_day": 42
+      },
+      {
+        "reading_id": "厂区乙-43",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 42,
+        "end": 43,
+        "mode": "interval",
+        "value": 145.17,
+        "revision": 1,
+        "known_day": 43
+      },
+      {
+        "reading_id": "厂区乙-44",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 43,
+        "end": 44,
+        "mode": "interval",
+        "value": 135.46,
+        "revision": 1,
+        "known_day": 44
+      },
+      {
+        "reading_id": "厂区乙-45",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 44,
+        "end": 45,
+        "mode": "interval",
+        "value": 144.6,
+        "revision": 1,
+        "known_day": 45
+      },
+      {
+        "reading_id": "厂区乙-46",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 45,
+        "end": 46,
+        "mode": "interval",
+        "value": 134.27,
+        "revision": 1,
+        "known_day": 46
+      },
+      {
+        "reading_id": "厂区乙-47",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 46,
+        "end": 47,
+        "mode": "interval",
+        "value": 99.33,
+        "revision": 1,
+        "known_day": 47
+      },
+      {
+        "reading_id": "厂区乙-48",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 47,
+        "end": 48,
+        "mode": "interval",
+        "value": 101.09,
+        "revision": 1,
+        "known_day": 48
+      },
+      {
+        "reading_id": "厂区乙-49",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 48,
+        "end": 49,
+        "mode": "interval",
+        "value": 131.0,
+        "revision": 1,
+        "known_day": 49
+      },
+      {
+        "reading_id": "厂区乙-50",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 49,
+        "end": 50,
+        "mode": "interval",
+        "value": 132.56,
+        "revision": 1,
+        "known_day": 50
+      },
+      {
+        "reading_id": "厂区乙-51",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 50,
+        "end": 51,
+        "mode": "interval",
+        "value": 138.01,
+        "revision": 1,
+        "known_day": 51
+      },
+      {
+        "reading_id": "厂区乙-52",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 51,
+        "end": 52,
+        "mode": "interval",
+        "value": 135.4,
+        "revision": 1,
+        "known_day": 52
+      },
+      {
+        "reading_id": "厂区乙-53",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 52,
+        "end": 53,
+        "mode": "interval",
+        "value": 136.0,
+        "revision": 1,
+        "known_day": 53
+      },
+      {
+        "reading_id": "厂区乙-54",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 53,
+        "end": 54,
+        "mode": "interval",
+        "value": 99.4,
+        "revision": 1,
+        "known_day": 54
+      },
+      {
+        "reading_id": "厂区乙-55",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 54,
+        "end": 55,
+        "mode": "interval",
+        "value": 99.16,
+        "revision": 1,
+        "known_day": 55
+      },
+      {
+        "reading_id": "厂区乙-56",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 55,
+        "end": 56,
+        "mode": "interval",
+        "value": 125.81,
+        "revision": 1,
+        "known_day": 56
+      },
+      {
+        "reading_id": "厂区乙-57",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 56,
+        "end": 57,
+        "mode": "interval",
+        "value": 136.95,
+        "revision": 1,
+        "known_day": 57
+      },
+      {
+        "reading_id": "厂区乙-58",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 57,
+        "end": 58,
+        "mode": "interval",
+        "value": 129.49,
+        "revision": 1,
+        "known_day": 58
+      },
+      {
+        "reading_id": "厂区乙-59",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 58,
+        "end": 59,
+        "mode": "interval",
+        "value": 140.96,
+        "revision": 1,
+        "known_day": 59
+      },
+      {
+        "reading_id": "厂区乙-60",
+        "site": "厂区乙",
+        "meter": "厂区乙-old",
+        "start": 59,
+        "end": 60,
+        "mode": "interval",
+        "value": 131.52,
+        "revision": 1,
+        "known_day": 60
+      },
+      {
+        "reading_id": "厂区乙-61",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 60,
+        "end": 61,
+        "mode": "interval",
+        "value": 107.49,
+        "revision": 1,
+        "known_day": 61
+      },
+      {
+        "reading_id": "厂区乙-62",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 61,
+        "end": 62,
+        "mode": "interval",
+        "value": 110.01,
+        "revision": 1,
+        "known_day": 62
+      },
+      {
+        "reading_id": "厂区乙-63",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 62,
+        "end": 63,
+        "mode": "interval",
+        "value": 122.06,
+        "revision": 1,
+        "known_day": 63
+      },
+      {
+        "reading_id": "厂区乙-64",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 63,
+        "end": 64,
+        "mode": "interval",
+        "value": 143.86,
+        "revision": 1,
+        "known_day": 64
+      },
+      {
+        "reading_id": "厂区乙-65",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 64,
+        "end": 65,
+        "mode": "interval",
+        "value": 143.48,
+        "revision": 1,
+        "known_day": 65
+      },
+      {
+        "reading_id": "厂区乙-66",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 65,
+        "end": 66,
+        "mode": "interval",
+        "value": 145.5,
+        "revision": 1,
+        "known_day": 66
+      },
+      {
+        "reading_id": "厂区乙-67",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 66,
+        "end": 67,
+        "mode": "interval",
+        "value": 142.89,
+        "revision": 1,
+        "known_day": 67
+      },
+      {
+        "reading_id": "厂区乙-68",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 67,
+        "end": 68,
+        "mode": "interval",
+        "value": 106.67,
+        "revision": 1,
+        "known_day": 68
+      },
+      {
+        "reading_id": "厂区乙-69",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 68,
+        "end": 69,
+        "mode": "interval",
+        "value": 116.46,
+        "revision": 1,
+        "known_day": 69
+      },
+      {
+        "reading_id": "厂区乙-70",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 69,
+        "end": 70,
+        "mode": "interval",
+        "value": 141.5,
+        "revision": 1,
+        "known_day": 70
+      },
+      {
+        "reading_id": "厂区乙-71",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 70,
+        "end": 71,
+        "mode": "interval",
+        "value": 147.86,
+        "revision": 1,
+        "known_day": 71
+      },
+      {
+        "reading_id": "厂区乙-72",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 71,
+        "end": 72,
+        "mode": "interval",
+        "value": 141.82,
+        "revision": 1,
+        "known_day": 72
+      },
+      {
+        "reading_id": "厂区乙-73",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 72,
+        "end": 73,
+        "mode": "interval",
+        "value": 144.6,
+        "revision": 1,
+        "known_day": 73
+      },
+      {
+        "reading_id": "厂区乙-74",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 73,
+        "end": 74,
+        "mode": "interval",
+        "value": 142.37,
+        "revision": 1,
+        "known_day": 74
+      },
+      {
+        "reading_id": "厂区乙-75",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 74,
+        "end": 75,
+        "mode": "interval",
+        "value": 127.49,
+        "revision": 1,
+        "known_day": 75
+      },
+      {
+        "reading_id": "厂区乙-76",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 75,
+        "end": 76,
+        "mode": "interval",
+        "value": 123.04,
+        "revision": 1,
+        "known_day": 76
+      },
+      {
+        "reading_id": "厂区乙-77",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 76,
+        "end": 77,
+        "mode": "interval",
+        "value": 145.87,
+        "revision": 1,
+        "known_day": 77
+      },
+      {
+        "reading_id": "厂区乙-78",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 77,
+        "end": 78,
+        "mode": "interval",
+        "value": 164.65,
+        "revision": 1,
+        "known_day": 78
+      },
+      {
+        "reading_id": "厂区乙-79",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 78,
+        "end": 79,
+        "mode": "interval",
+        "value": 155.61,
+        "revision": 1,
+        "known_day": 79
+      },
+      {
+        "reading_id": "厂区乙-80",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 79,
+        "end": 80,
+        "mode": "interval",
+        "value": 158.91,
+        "revision": 1,
+        "known_day": 80
+      },
+      {
+        "reading_id": "厂区乙-81",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 80,
+        "end": 81,
+        "mode": "interval",
+        "value": 154.18,
+        "revision": 1,
+        "known_day": 81
+      },
+      {
+        "reading_id": "厂区乙-82",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 81,
+        "end": 82,
+        "mode": "interval",
+        "value": 133.33,
+        "revision": 1,
+        "known_day": 82
+      },
+      {
+        "reading_id": "厂区乙-83",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 82,
+        "end": 83,
+        "mode": "interval",
+        "value": 126.16,
+        "revision": 1,
+        "known_day": 83
+      },
+      {
+        "reading_id": "厂区乙-84",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 83,
+        "end": 84,
+        "mode": "interval",
+        "value": 152.42,
+        "revision": 1,
+        "known_day": 84
+      },
+      {
+        "reading_id": "厂区乙-85",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 84,
+        "end": 85,
+        "mode": "interval",
+        "value": 161.18,
+        "revision": 1,
+        "known_day": 85
+      },
+      {
+        "reading_id": "厂区乙-86",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 85,
+        "end": 86,
+        "mode": "interval",
+        "value": 164.7,
+        "revision": 1,
+        "known_day": 86
+      },
+      {
+        "reading_id": "厂区乙-87",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 86,
+        "end": 87,
+        "mode": "interval",
+        "value": 162.52,
+        "revision": 1,
+        "known_day": 87
+      },
+      {
+        "reading_id": "厂区乙-88",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 87,
+        "end": 88,
+        "mode": "interval",
+        "value": 159.25,
+        "revision": 1,
+        "known_day": 88
+      },
+      {
+        "reading_id": "厂区乙-89",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 88,
+        "end": 89,
+        "mode": "interval",
+        "value": 138.38,
+        "revision": 1,
+        "known_day": 89
+      },
+      {
+        "reading_id": "厂区乙-90",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 89,
+        "end": 90,
+        "mode": "interval",
+        "value": 128.6,
+        "revision": 1,
+        "known_day": 90
+      },
+      {
+        "reading_id": "厂区乙-91",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 90,
+        "end": 91,
+        "mode": "interval",
+        "value": 162.13,
+        "revision": 1,
+        "known_day": 91
+      },
+      {
+        "reading_id": "厂区乙-92",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 91,
+        "end": 92,
+        "mode": "interval",
+        "value": 162.57,
+        "revision": 1,
+        "known_day": 92
+      },
+      {
+        "reading_id": "厂区乙-93",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 92,
+        "end": 93,
+        "mode": "interval",
+        "value": 168.72,
+        "revision": 1,
+        "known_day": 93
+      },
+      {
+        "reading_id": "厂区乙-94",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 93,
+        "end": 94,
+        "mode": "interval",
+        "value": 164.88,
+        "revision": 1,
+        "known_day": 94
+      },
+      {
+        "reading_id": "厂区乙-95",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 94,
+        "end": 95,
+        "mode": "interval",
+        "value": 165.86,
+        "revision": 1,
+        "known_day": 95
+      },
+      {
+        "reading_id": "厂区乙-96",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 95,
+        "end": 96,
+        "mode": "interval",
+        "value": 121.29,
+        "revision": 1,
+        "known_day": 96
+      },
+      {
+        "reading_id": "厂区乙-97",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 96,
+        "end": 97,
+        "mode": "interval",
+        "value": 134.83,
+        "revision": 1,
+        "known_day": 97
+      },
+      {
+        "reading_id": "厂区乙-98",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 97,
+        "end": 98,
+        "mode": "interval",
+        "value": 165.21,
+        "revision": 1,
+        "known_day": 98
+      },
+      {
+        "reading_id": "厂区乙-99",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 98,
+        "end": 99,
+        "mode": "interval",
+        "value": 159.41,
+        "revision": 1,
+        "known_day": 99
+      },
+      {
+        "reading_id": "厂区乙-100",
+        "site": "厂区乙",
+        "meter": "厂区乙-new",
+        "start": 99,
+        "end": 100,
+        "mode": "interval",
+        "value": 161.19,
+        "revision": 1,
+        "known_day": 100
+      },
+      {
+        "reading_id": "厂区甲-36",
+        "site": "厂区甲",
+        "meter": "厂区甲-old",
+        "start": 35,
+        "end": 36,
+        "mode": "counter",
+        "value": 6473.25,
+        "revision": 2,
+        "known_day": 75
+      }
+    ],
+    "conditions": [
+      {
+        "site": "厂区甲",
+        "day": 1,
+        "temperature": 20.7,
+        "production": "运行",
+        "known_day": 1
+      },
+      {
+        "site": "厂区甲",
+        "day": 2,
+        "temperature": 21.3,
+        "production": "运行",
+        "known_day": 2
+      },
+      {
+        "site": "厂区甲",
+        "day": 3,
+        "temperature": 22.0,
+        "production": "运行",
+        "known_day": 3
+      },
+      {
+        "site": "厂区甲",
+        "day": 4,
+        "temperature": 22.6,
+        "production": "运行",
+        "known_day": 4
+      },
+      {
+        "site": "厂区甲",
+        "day": 5,
+        "temperature": 23.2,
+        "production": "停工",
+        "known_day": 5
+      },
+      {
+        "site": "厂区甲",
+        "day": 6,
+        "temperature": 23.8,
+        "production": "停工",
+        "known_day": 6
+      },
+      {
+        "site": "厂区甲",
+        "day": 7,
+        "temperature": 24.4,
+        "production": "运行",
+        "known_day": 7
+      },
+      {
+        "site": "厂区甲",
+        "day": 8,
+        "temperature": 24.9,
+        "production": "运行",
+        "known_day": 8
+      },
+      {
+        "site": "厂区甲",
+        "day": 9,
+        "temperature": 25.5,
+        "production": "运行",
+        "known_day": 9
+      },
+      {
+        "site": "厂区甲",
+        "day": 10,
+        "temperature": 25.9,
+        "production": "运行",
+        "known_day": 10
+      },
+      {
+        "site": "厂区甲",
+        "day": 11,
+        "temperature": 26.3,
+        "production": "运行",
+        "known_day": 11
+      },
+      {
+        "site": "厂区甲",
+        "day": 12,
+        "temperature": 26.7,
+        "production": "停工",
+        "known_day": 12
+      },
+      {
+        "site": "厂区甲",
+        "day": 13,
+        "temperature": 27.1,
+        "production": "停工",
+        "known_day": 13
+      },
+      {
+        "site": "厂区甲",
+        "day": 14,
+        "temperature": 27.4,
+        "production": "运行",
+        "known_day": 14
+      },
+      {
+        "site": "厂区甲",
+        "day": 15,
+        "temperature": 27.6,
+        "production": "运行",
+        "known_day": 15
+      },
+      {
+        "site": "厂区甲",
+        "day": 16,
+        "temperature": 27.8,
+        "production": "运行",
+        "known_day": 16
+      },
+      {
+        "site": "厂区甲",
+        "day": 17,
+        "temperature": 27.9,
+        "production": "运行",
+        "known_day": 17
+      },
+      {
+        "site": "厂区甲",
+        "day": 18,
+        "temperature": 28.0,
+        "production": "运行",
+        "known_day": 18
+      },
+      {
+        "site": "厂区甲",
+        "day": 19,
+        "temperature": 28.0,
+        "production": "停工",
+        "known_day": 19
+      },
+      {
+        "site": "厂区甲",
+        "day": 20,
+        "temperature": 28.0,
+        "production": "停工",
+        "known_day": 20
+      },
+      {
+        "site": "厂区甲",
+        "day": 21,
+        "temperature": 27.9,
+        "production": "运行",
+        "known_day": 21
+      },
+      {
+        "site": "厂区甲",
+        "day": 22,
+        "temperature": 27.7,
+        "production": "运行",
+        "known_day": 22
+      },
+      {
+        "site": "厂区甲",
+        "day": 23,
+        "temperature": 27.5,
+        "production": "运行",
+        "known_day": 23
+      },
+      {
+        "site": "厂区甲",
+        "day": 24,
+        "temperature": 27.3,
+        "production": "运行",
+        "known_day": 24
+      },
+      {
+        "site": "厂区甲",
+        "day": 25,
+        "temperature": 27.0,
+        "production": "运行",
+        "known_day": 25
+      },
+      {
+        "site": "厂区甲",
+        "day": 26,
+        "temperature": 26.6,
+        "production": "停工",
+        "known_day": 26
+      },
+      {
+        "site": "厂区甲",
+        "day": 27,
+        "temperature": 26.2,
+        "production": "停工",
+        "known_day": 27
+      },
+      {
+        "site": "厂区甲",
+        "day": 28,
+        "temperature": 25.8,
+        "production": "运行",
+        "known_day": 28
+      },
+      {
+        "site": "厂区甲",
+        "day": 29,
+        "temperature": 25.3,
+        "production": "运行",
+        "known_day": 29
+      },
+      {
+        "site": "厂区甲",
+        "day": 30,
+        "temperature": 24.8,
+        "production": "运行",
+        "known_day": 30
+      },
+      {
+        "site": "厂区甲",
+        "day": 31,
+        "temperature": 24.2,
+        "production": "运行",
+        "known_day": 31
+      },
+      {
+        "site": "厂区甲",
+        "day": 32,
+        "temperature": 23.7,
+        "production": "运行",
+        "known_day": 32
+      },
+      {
+        "site": "厂区甲",
+        "day": 33,
+        "temperature": 23.1,
+        "production": "停工",
+        "known_day": 33
+      },
+      {
+        "site": "厂区甲",
+        "day": 34,
+        "temperature": 22.4,
+        "production": "停工",
+        "known_day": 34
+      },
+      {
+        "site": "厂区甲",
+        "day": 35,
+        "temperature": 21.8,
+        "production": "运行",
+        "known_day": 35
+      },
+      {
+        "site": "厂区甲",
+        "day": 36,
+        "temperature": 21.1,
+        "production": "运行",
+        "known_day": 36
+      },
+      {
+        "site": "厂区甲",
+        "day": 37,
+        "temperature": 20.5,
+        "production": "运行",
+        "known_day": 37
+      },
+      {
+        "site": "厂区甲",
+        "day": 38,
+        "temperature": 19.8,
+        "production": "运行",
+        "known_day": 38
+      },
+      {
+        "site": "厂区甲",
+        "day": 39,
+        "temperature": 19.1,
+        "production": "运行",
+        "known_day": 39
+      },
+      {
+        "site": "厂区甲",
+        "day": 40,
+        "temperature": 18.5,
+        "production": "停工",
+        "known_day": 40
+      },
+      {
+        "site": "厂区甲",
+        "day": 41,
+        "temperature": 17.8,
+        "production": "停工",
+        "known_day": 41
+      },
+      {
+        "site": "厂区甲",
+        "day": 42,
+        "temperature": 17.2,
+        "production": "运行",
+        "known_day": 42
+      },
+      {
+        "site": "厂区甲",
+        "day": 43,
+        "temperature": 16.6,
+        "production": "运行",
+        "known_day": 43
+      },
+      {
+        "site": "厂区甲",
+        "day": 44,
+        "temperature": 16.0,
+        "production": "运行",
+        "known_day": 44
+      },
+      {
+        "site": "厂区甲",
+        "day": 45,
+        "temperature": 15.4,
+        "production": "运行",
+        "known_day": 45
+      },
+      {
+        "site": "厂区甲",
+        "day": 46,
+        "temperature": 14.9,
+        "production": "运行",
+        "known_day": 46
+      },
+      {
+        "site": "厂区甲",
+        "day": 47,
+        "temperature": 14.4,
+        "production": "停工",
+        "known_day": 47
+      },
+      {
+        "site": "厂区甲",
+        "day": 48,
+        "temperature": 13.9,
+        "production": "停工",
+        "known_day": 48
+      },
+      {
+        "site": "厂区甲",
+        "day": 49,
+        "temperature": 13.5,
+        "production": "运行",
+        "known_day": 49
+      },
+      {
+        "site": "厂区甲",
+        "day": 50,
+        "temperature": 13.2,
+        "production": "运行",
+        "known_day": 50
+      },
+      {
+        "site": "厂区甲",
+        "day": 51,
+        "temperature": 12.8,
+        "production": "运行",
+        "known_day": 51
+      },
+      {
+        "site": "厂区甲",
+        "day": 52,
+        "temperature": 12.6,
+        "production": "运行",
+        "known_day": 52
+      },
+      {
+        "site": "厂区甲",
+        "day": 53,
+        "temperature": 12.3,
+        "production": "运行",
+        "known_day": 53
+      },
+      {
+        "site": "厂区甲",
+        "day": 54,
+        "temperature": 12.2,
+        "production": "停工",
+        "known_day": 54
+      },
+      {
+        "site": "厂区甲",
+        "day": 55,
+        "temperature": 12.1,
+        "production": "停工",
+        "known_day": 55
+      },
+      {
+        "site": "厂区甲",
+        "day": 56,
+        "temperature": 12.0,
+        "production": "运行",
+        "known_day": 56
+      },
+      {
+        "site": "厂区甲",
+        "day": 57,
+        "temperature": 12.0,
+        "production": "运行",
+        "known_day": 57
+      },
+      {
+        "site": "厂区甲",
+        "day": 58,
+        "temperature": 12.1,
+        "production": "运行",
+        "known_day": 58
+      },
+      {
+        "site": "厂区甲",
+        "day": 59,
+        "temperature": 12.2,
+        "production": "运行",
+        "known_day": 59
+      },
+      {
+        "site": "厂区甲",
+        "day": 60,
+        "temperature": 12.3,
+        "production": "运行",
+        "known_day": 60
+      },
+      {
+        "site": "厂区甲",
+        "day": 61,
+        "temperature": 12.5,
+        "production": "停工",
+        "known_day": 61
+      },
+      {
+        "site": "厂区甲",
+        "day": 62,
+        "temperature": 12.8,
+        "production": "停工",
+        "known_day": 62
+      },
+      {
+        "site": "厂区甲",
+        "day": 63,
+        "temperature": 13.1,
+        "production": "运行",
+        "known_day": 63
+      },
+      {
+        "site": "厂区甲",
+        "day": 64,
+        "temperature": 13.5,
+        "production": "运行",
+        "known_day": 64
+      },
+      {
+        "site": "厂区甲",
+        "day": 65,
+        "temperature": 13.9,
+        "production": "运行",
+        "known_day": 65
+      },
+      {
+        "site": "厂区甲",
+        "day": 66,
+        "temperature": 14.4,
+        "production": "运行",
+        "known_day": 66
+      },
+      {
+        "site": "厂区甲",
+        "day": 67,
+        "temperature": 14.8,
+        "production": "运行",
+        "known_day": 67
+      },
+      {
+        "site": "厂区甲",
+        "day": 68,
+        "temperature": 15.4,
+        "production": "停工",
+        "known_day": 68
+      },
+      {
+        "site": "厂区甲",
+        "day": 69,
+        "temperature": 15.9,
+        "production": "停工",
+        "known_day": 69
+      },
+      {
+        "site": "厂区甲",
+        "day": 70,
+        "temperature": 16.5,
+        "production": "运行",
+        "known_day": 70
+      },
+      {
+        "site": "厂区甲",
+        "day": 71,
+        "temperature": 17.1,
+        "production": "运行",
+        "known_day": 71
+      },
+      {
+        "site": "厂区甲",
+        "day": 72,
+        "temperature": 17.8,
+        "production": "运行",
+        "known_day": 72
+      },
+      {
+        "site": "厂区甲",
+        "day": 73,
+        "temperature": 18.4,
+        "production": "运行",
+        "known_day": 73
+      },
+      {
+        "site": "厂区甲",
+        "day": 74,
+        "temperature": 19.1,
+        "production": "运行",
+        "known_day": 74
+      },
+      {
+        "site": "厂区甲",
+        "day": 75,
+        "temperature": 19.7,
+        "production": "停工",
+        "known_day": 75
+      },
+      {
+        "site": "厂区甲",
+        "day": 76,
+        "temperature": 20.4,
+        "production": "停工",
+        "known_day": 76
+      },
+      {
+        "site": "厂区甲",
+        "day": 77,
+        "temperature": 21.1,
+        "production": "运行",
+        "known_day": 77
+      },
+      {
+        "site": "厂区甲",
+        "day": 78,
+        "temperature": 21.7,
+        "production": "运行",
+        "known_day": 78
+      },
+      {
+        "site": "厂区甲",
+        "day": 79,
+        "temperature": 22.4,
+        "production": "运行",
+        "known_day": 79
+      },
+      {
+        "site": "厂区甲",
+        "day": 80,
+        "temperature": 23.0,
+        "production": "运行",
+        "known_day": 80
+      },
+      {
+        "site": "厂区甲",
+        "day": 81,
+        "temperature": 23.6,
+        "production": "运行",
+        "known_day": 81
+      },
+      {
+        "site": "厂区甲",
+        "day": 82,
+        "temperature": 24.2,
+        "production": "停工",
+        "known_day": 82
+      },
+      {
+        "site": "厂区甲",
+        "day": 83,
+        "temperature": 24.7,
+        "production": "停工",
+        "known_day": 83
+      },
+      {
+        "site": "厂区甲",
+        "day": 84,
+        "temperature": 25.3,
+        "production": "运行",
+        "known_day": 84
+      },
+      {
+        "site": "厂区甲",
+        "day": 85,
+        "temperature": 25.7,
+        "production": "运行",
+        "known_day": 85
+      },
+      {
+        "site": "厂区甲",
+        "day": 86,
+        "temperature": 26.2,
+        "production": "运行",
+        "known_day": 86
+      },
+      {
+        "site": "厂区甲",
+        "day": 87,
+        "temperature": 26.6,
+        "production": "运行",
+        "known_day": 87
+      },
+      {
+        "site": "厂区甲",
+        "day": 88,
+        "temperature": 26.9,
+        "production": "运行",
+        "known_day": 88
+      },
+      {
+        "site": "厂区甲",
+        "day": 89,
+        "temperature": 27.2,
+        "production": "停工",
+        "known_day": 89
+      },
+      {
+        "site": "厂区甲",
+        "day": 90,
+        "temperature": 27.5,
+        "production": "停工",
+        "known_day": 90
+      },
+      {
+        "site": "厂区甲",
+        "day": 91,
+        "temperature": 27.7,
+        "production": "运行",
+        "known_day": 91
+      },
+      {
+        "site": "厂区甲",
+        "day": 92,
+        "temperature": 27.9,
+        "production": "运行",
+        "known_day": 92
+      },
+      {
+        "site": "厂区甲",
+        "day": 93,
+        "temperature": 28.0,
+        "production": "运行",
+        "known_day": 93
+      },
+      {
+        "site": "厂区甲",
+        "day": 94,
+        "temperature": 28.0,
+        "production": "运行",
+        "known_day": 94
+      },
+      {
+        "site": "厂区甲",
+        "day": 95,
+        "temperature": 28.0,
+        "production": "运行",
+        "known_day": 95
+      },
+      {
+        "site": "厂区甲",
+        "day": 96,
+        "temperature": 27.9,
+        "production": "停工",
+        "known_day": 96
+      },
+      {
+        "site": "厂区甲",
+        "day": 97,
+        "temperature": 27.8,
+        "production": "停工",
+        "known_day": 97
+      },
+      {
+        "site": "厂区甲",
+        "day": 98,
+        "temperature": 27.6,
+        "production": "运行",
+        "known_day": 98
+      },
+      {
+        "site": "厂区甲",
+        "day": 99,
+        "temperature": 27.4,
+        "production": "运行",
+        "known_day": 99
+      },
+      {
+        "site": "厂区甲",
+        "day": 100,
+        "temperature": 27.1,
+        "production": "运行",
+        "known_day": 100
+      },
+      {
+        "site": "厂区乙",
+        "day": 1,
+        "temperature": 20.7,
+        "production": "运行",
+        "known_day": 1
+      },
+      {
+        "site": "厂区乙",
+        "day": 2,
+        "temperature": 21.3,
+        "production": "运行",
+        "known_day": 2
+      },
+      {
+        "site": "厂区乙",
+        "day": 3,
+        "temperature": 22.0,
+        "production": "运行",
+        "known_day": 3
+      },
+      {
+        "site": "厂区乙",
+        "day": 4,
+        "temperature": 22.6,
+        "production": "运行",
+        "known_day": 4
+      },
+      {
+        "site": "厂区乙",
+        "day": 5,
+        "temperature": 23.2,
+        "production": "停工",
+        "known_day": 5
+      },
+      {
+        "site": "厂区乙",
+        "day": 6,
+        "temperature": 23.8,
+        "production": "停工",
+        "known_day": 6
+      },
+      {
+        "site": "厂区乙",
+        "day": 7,
+        "temperature": 24.4,
+        "production": "运行",
+        "known_day": 7
+      },
+      {
+        "site": "厂区乙",
+        "day": 8,
+        "temperature": 24.9,
+        "production": "运行",
+        "known_day": 8
+      },
+      {
+        "site": "厂区乙",
+        "day": 9,
+        "temperature": 25.5,
+        "production": "运行",
+        "known_day": 9
+      },
+      {
+        "site": "厂区乙",
+        "day": 10,
+        "temperature": 25.9,
+        "production": "运行",
+        "known_day": 10
+      },
+      {
+        "site": "厂区乙",
+        "day": 11,
+        "temperature": 26.3,
+        "production": "运行",
+        "known_day": 11
+      },
+      {
+        "site": "厂区乙",
+        "day": 12,
+        "temperature": 26.7,
+        "production": "停工",
+        "known_day": 12
+      },
+      {
+        "site": "厂区乙",
+        "day": 13,
+        "temperature": 27.1,
+        "production": "停工",
+        "known_day": 13
+      },
+      {
+        "site": "厂区乙",
+        "day": 14,
+        "temperature": 27.4,
+        "production": "运行",
+        "known_day": 14
+      },
+      {
+        "site": "厂区乙",
+        "day": 15,
+        "temperature": 27.6,
+        "production": "运行",
+        "known_day": 15
+      },
+      {
+        "site": "厂区乙",
+        "day": 16,
+        "temperature": 27.8,
+        "production": "运行",
+        "known_day": 16
+      },
+      {
+        "site": "厂区乙",
+        "day": 17,
+        "temperature": 27.9,
+        "production": "运行",
+        "known_day": 17
+      },
+      {
+        "site": "厂区乙",
+        "day": 18,
+        "temperature": 28.0,
+        "production": "运行",
+        "known_day": 18
+      },
+      {
+        "site": "厂区乙",
+        "day": 19,
+        "temperature": 28.0,
+        "production": "停工",
+        "known_day": 19
+      },
+      {
+        "site": "厂区乙",
+        "day": 20,
+        "temperature": 28.0,
+        "production": "停工",
+        "known_day": 20
+      },
+      {
+        "site": "厂区乙",
+        "day": 21,
+        "temperature": 27.9,
+        "production": "运行",
+        "known_day": 21
+      },
+      {
+        "site": "厂区乙",
+        "day": 22,
+        "temperature": 27.7,
+        "production": "运行",
+        "known_day": 22
+      },
+      {
+        "site": "厂区乙",
+        "day": 23,
+        "temperature": 27.5,
+        "production": "运行",
+        "known_day": 23
+      },
+      {
+        "site": "厂区乙",
+        "day": 24,
+        "temperature": 27.3,
+        "production": "运行",
+        "known_day": 24
+      },
+      {
+        "site": "厂区乙",
+        "day": 25,
+        "temperature": 27.0,
+        "production": "运行",
+        "known_day": 25
+      },
+      {
+        "site": "厂区乙",
+        "day": 26,
+        "temperature": 26.6,
+        "production": "停工",
+        "known_day": 26
+      },
+      {
+        "site": "厂区乙",
+        "day": 27,
+        "temperature": 26.2,
+        "production": "停工",
+        "known_day": 27
+      },
+      {
+        "site": "厂区乙",
+        "day": 28,
+        "temperature": 25.8,
+        "production": "运行",
+        "known_day": 28
+      },
+      {
+        "site": "厂区乙",
+        "day": 29,
+        "temperature": 25.3,
+        "production": "运行",
+        "known_day": 29
+      },
+      {
+        "site": "厂区乙",
+        "day": 30,
+        "temperature": 24.8,
+        "production": "运行",
+        "known_day": 30
+      },
+      {
+        "site": "厂区乙",
+        "day": 31,
+        "temperature": 24.2,
+        "production": "运行",
+        "known_day": 31
+      },
+      {
+        "site": "厂区乙",
+        "day": 32,
+        "temperature": 23.7,
+        "production": "运行",
+        "known_day": 32
+      },
+      {
+        "site": "厂区乙",
+        "day": 33,
+        "temperature": 23.1,
+        "production": "停工",
+        "known_day": 33
+      },
+      {
+        "site": "厂区乙",
+        "day": 34,
+        "temperature": 22.4,
+        "production": "停工",
+        "known_day": 34
+      },
+      {
+        "site": "厂区乙",
+        "day": 35,
+        "temperature": 21.8,
+        "production": "运行",
+        "known_day": 35
+      },
+      {
+        "site": "厂区乙",
+        "day": 36,
+        "temperature": 21.1,
+        "production": "运行",
+        "known_day": 36
+      },
+      {
+        "site": "厂区乙",
+        "day": 37,
+        "temperature": 20.5,
+        "production": "运行",
+        "known_day": 37
+      },
+      {
+        "site": "厂区乙",
+        "day": 38,
+        "temperature": 19.8,
+        "production": "运行",
+        "known_day": 38
+      },
+      {
+        "site": "厂区乙",
+        "day": 39,
+        "temperature": 19.1,
+        "production": "运行",
+        "known_day": 39
+      },
+      {
+        "site": "厂区乙",
+        "day": 40,
+        "temperature": 18.5,
+        "production": "停工",
+        "known_day": 40
+      },
+      {
+        "site": "厂区乙",
+        "day": 41,
+        "temperature": 17.8,
+        "production": "停工",
+        "known_day": 41
+      },
+      {
+        "site": "厂区乙",
+        "day": 42,
+        "temperature": 17.2,
+        "production": "运行",
+        "known_day": 42
+      },
+      {
+        "site": "厂区乙",
+        "day": 43,
+        "temperature": 16.6,
+        "production": "运行",
+        "known_day": 43
+      },
+      {
+        "site": "厂区乙",
+        "day": 44,
+        "temperature": 16.0,
+        "production": "运行",
+        "known_day": 44
+      },
+      {
+        "site": "厂区乙",
+        "day": 45,
+        "temperature": 15.4,
+        "production": "运行",
+        "known_day": 45
+      },
+      {
+        "site": "厂区乙",
+        "day": 46,
+        "temperature": 14.9,
+        "production": "运行",
+        "known_day": 46
+      },
+      {
+        "site": "厂区乙",
+        "day": 47,
+        "temperature": 14.4,
+        "production": "停工",
+        "known_day": 47
+      },
+      {
+        "site": "厂区乙",
+        "day": 48,
+        "temperature": 13.9,
+        "production": "停工",
+        "known_day": 48
+      },
+      {
+        "site": "厂区乙",
+        "day": 49,
+        "temperature": 13.5,
+        "production": "运行",
+        "known_day": 49
+      },
+      {
+        "site": "厂区乙",
+        "day": 50,
+        "temperature": 13.2,
+        "production": "运行",
+        "known_day": 50
+      },
+      {
+        "site": "厂区乙",
+        "day": 51,
+        "temperature": 12.8,
+        "production": "运行",
+        "known_day": 51
+      },
+      {
+        "site": "厂区乙",
+        "day": 52,
+        "temperature": 12.6,
+        "production": "运行",
+        "known_day": 52
+      },
+      {
+        "site": "厂区乙",
+        "day": 53,
+        "temperature": 12.3,
+        "production": "运行",
+        "known_day": 53
+      },
+      {
+        "site": "厂区乙",
+        "day": 54,
+        "temperature": 12.2,
+        "production": "停工",
+        "known_day": 54
+      },
+      {
+        "site": "厂区乙",
+        "day": 55,
+        "temperature": 12.1,
+        "production": "停工",
+        "known_day": 55
+      },
+      {
+        "site": "厂区乙",
+        "day": 56,
+        "temperature": 12.0,
+        "production": "运行",
+        "known_day": 56
+      },
+      {
+        "site": "厂区乙",
+        "day": 57,
+        "temperature": 12.0,
+        "production": "运行",
+        "known_day": 57
+      },
+      {
+        "site": "厂区乙",
+        "day": 58,
+        "temperature": 12.1,
+        "production": "运行",
+        "known_day": 58
+      },
+      {
+        "site": "厂区乙",
+        "day": 59,
+        "temperature": 12.2,
+        "production": "运行",
+        "known_day": 59
+      },
+      {
+        "site": "厂区乙",
+        "day": 60,
+        "temperature": 12.3,
+        "production": "运行",
+        "known_day": 60
+      },
+      {
+        "site": "厂区乙",
+        "day": 61,
+        "temperature": 12.5,
+        "production": "停工",
+        "known_day": 61
+      },
+      {
+        "site": "厂区乙",
+        "day": 62,
+        "temperature": 12.8,
+        "production": "停工",
+        "known_day": 62
+      },
+      {
+        "site": "厂区乙",
+        "day": 63,
+        "temperature": 13.1,
+        "production": "运行",
+        "known_day": 63
+      },
+      {
+        "site": "厂区乙",
+        "day": 64,
+        "temperature": 13.5,
+        "production": "运行",
+        "known_day": 64
+      },
+      {
+        "site": "厂区乙",
+        "day": 65,
+        "temperature": 13.9,
+        "production": "运行",
+        "known_day": 65
+      },
+      {
+        "site": "厂区乙",
+        "day": 66,
+        "temperature": 14.4,
+        "production": "运行",
+        "known_day": 66
+      },
+      {
+        "site": "厂区乙",
+        "day": 67,
+        "temperature": 14.8,
+        "production": "运行",
+        "known_day": 67
+      },
+      {
+        "site": "厂区乙",
+        "day": 68,
+        "temperature": 15.4,
+        "production": "停工",
+        "known_day": 68
+      },
+      {
+        "site": "厂区乙",
+        "day": 69,
+        "temperature": 15.9,
+        "production": "停工",
+        "known_day": 69
+      },
+      {
+        "site": "厂区乙",
+        "day": 70,
+        "temperature": 16.5,
+        "production": "运行",
+        "known_day": 70
+      },
+      {
+        "site": "厂区乙",
+        "day": 71,
+        "temperature": 17.1,
+        "production": "运行",
+        "known_day": 71
+      },
+      {
+        "site": "厂区乙",
+        "day": 72,
+        "temperature": 17.8,
+        "production": "运行",
+        "known_day": 72
+      },
+      {
+        "site": "厂区乙",
+        "day": 73,
+        "temperature": 18.4,
+        "production": "运行",
+        "known_day": 73
+      },
+      {
+        "site": "厂区乙",
+        "day": 74,
+        "temperature": 19.1,
+        "production": "运行",
+        "known_day": 74
+      },
+      {
+        "site": "厂区乙",
+        "day": 75,
+        "temperature": 19.7,
+        "production": "停工",
+        "known_day": 75
+      },
+      {
+        "site": "厂区乙",
+        "day": 76,
+        "temperature": 20.4,
+        "production": "停工",
+        "known_day": 76
+      },
+      {
+        "site": "厂区乙",
+        "day": 77,
+        "temperature": 21.1,
+        "production": "运行",
+        "known_day": 77
+      },
+      {
+        "site": "厂区乙",
+        "day": 78,
+        "temperature": 21.7,
+        "production": "运行",
+        "known_day": 78
+      },
+      {
+        "site": "厂区乙",
+        "day": 79,
+        "temperature": 22.4,
+        "production": "运行",
+        "known_day": 79
+      },
+      {
+        "site": "厂区乙",
+        "day": 80,
+        "temperature": 23.0,
+        "production": "运行",
+        "known_day": 80
+      },
+      {
+        "site": "厂区乙",
+        "day": 81,
+        "temperature": 23.6,
+        "production": "运行",
+        "known_day": 81
+      },
+      {
+        "site": "厂区乙",
+        "day": 82,
+        "temperature": 24.2,
+        "production": "停工",
+        "known_day": 82
+      },
+      {
+        "site": "厂区乙",
+        "day": 83,
+        "temperature": 24.7,
+        "production": "停工",
+        "known_day": 83
+      },
+      {
+        "site": "厂区乙",
+        "day": 84,
+        "temperature": 25.3,
+        "production": "运行",
+        "known_day": 84
+      },
+      {
+        "site": "厂区乙",
+        "day": 85,
+        "temperature": 25.7,
+        "production": "运行",
+        "known_day": 85
+      },
+      {
+        "site": "厂区乙",
+        "day": 86,
+        "temperature": 26.2,
+        "production": "运行",
+        "known_day": 86
+      },
+      {
+        "site": "厂区乙",
+        "day": 87,
+        "temperature": 26.6,
+        "production": "运行",
+        "known_day": 87
+      },
+      {
+        "site": "厂区乙",
+        "day": 88,
+        "temperature": 26.9,
+        "production": "运行",
+        "known_day": 88
+      },
+      {
+        "site": "厂区乙",
+        "day": 89,
+        "temperature": 27.2,
+        "production": "停工",
+        "known_day": 89
+      },
+      {
+        "site": "厂区乙",
+        "day": 90,
+        "temperature": 27.5,
+        "production": "停工",
+        "known_day": 90
+      },
+      {
+        "site": "厂区乙",
+        "day": 91,
+        "temperature": 27.7,
+        "production": "运行",
+        "known_day": 91
+      },
+      {
+        "site": "厂区乙",
+        "day": 92,
+        "temperature": 27.9,
+        "production": "运行",
+        "known_day": 92
+      },
+      {
+        "site": "厂区乙",
+        "day": 93,
+        "temperature": 28.0,
+        "production": "运行",
+        "known_day": 93
+      },
+      {
+        "site": "厂区乙",
+        "day": 94,
+        "temperature": 28.0,
+        "production": "运行",
+        "known_day": 94
+      },
+      {
+        "site": "厂区乙",
+        "day": 95,
+        "temperature": 28.0,
+        "production": "运行",
+        "known_day": 95
+      },
+      {
+        "site": "厂区乙",
+        "day": 96,
+        "temperature": 27.9,
+        "production": "停工",
+        "known_day": 96
+      },
+      {
+        "site": "厂区乙",
+        "day": 97,
+        "temperature": 27.8,
+        "production": "停工",
+        "known_day": 97
+      },
+      {
+        "site": "厂区乙",
+        "day": 98,
+        "temperature": 27.6,
+        "production": "运行",
+        "known_day": 98
+      },
+      {
+        "site": "厂区乙",
+        "day": 99,
+        "temperature": 27.4,
+        "production": "运行",
+        "known_day": 99
+      },
+      {
+        "site": "厂区乙",
+        "day": 100,
+        "temperature": 27.1,
+        "production": "运行",
+        "known_day": 100
+      }
+    ],
+    "meters": [
+      {
+        "meter": "厂区甲-old",
+        "site": "厂区甲",
+        "installed_day": 1,
+        "start_value": 1000
+      },
+      {
+        "meter": "厂区甲-new",
+        "site": "厂区甲",
+        "installed_day": 61,
+        "start_value": 0
+      },
+      {
+        "meter": "厂区乙-old",
+        "site": "厂区乙",
+        "installed_day": 1,
+        "start_value": 1000
+      },
+      {
+        "meter": "厂区乙-new",
+        "site": "厂区乙",
+        "installed_day": 61,
+        "start_value": 0
+      }
+    ],
+    "annotations": [
+      {
+        "boundary": 55,
+        "site": "厂区甲",
+        "status": "confirmed",
+        "note": "生产班次调整",
+        "known_day": 57
+      }
+    ]
+  }
+}
