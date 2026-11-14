@@ -1,11 +1,15 @@
 # 本地接口
 
 - `GET /api/catalog`：资料名称、可选业务范围、业务时点范围、表计数与资料指纹。
-- `GET /api/view`：当前摘要，可选 `cutoff` 整数和 `group` 业务范围；未知筛选项返回 400。
+- `GET /api/view`：当前摘要，可选 `cutoff` 整数和 `group` 业务范围；未知筛选项返回 400。结果在原 `rows`/`summary`/`notes` 之外增加 `regimes` 对象：归整日用量序列 `series`、表计分段 `segments`、候选转折 `candidates`、换表标记 `meter_swaps`、已确认边界与节能量 `boundaries`、口径提示 `notes` 与识别参数 `parameters`。
 - `GET /api/source?table=readings`：按实际资料表名称查询原始记录；不存在的表返回 404。
 - `POST /api/analyses`：JSON 对象包含 `title` 与 `options`，重新计算并保存，成功返回 201。`options` 与当前摘要的筛选结构相同。
 - `GET /api/analyses`：只返回版本目录及资料指纹。
-- `GET /api/analyses/{id}`：返回保存的完整结果，不重新计算。
+- `GET /api/analyses/{id}`：返回保存的完整结果（含当时的 regimes 快照），不重新计算。
+- `GET /api/decisions`：返回分析师已固定的边界决策与证据快照。
+- `POST /api/decisions`：JSON 对象包含 `site`、整数 `boundary`、`status`（`confirmed` 或 `rejected`）与可选 `note`；成功返回 201。同一 (site, boundary) 再次提交整体替换旧决策；annotations 已确认的位置、未知站点或越界边界返回 400。
+
+候选对象含 `boundary`、`t_statistic`、`shift_per_day`、`persistence`、`effect_size`、`strength`（primary/weak）、调整模型系数与当前决策状态。节能量对象含 `saved_total`、`saved_per_day`、`relative_saving`、`standard_error`、`confidence_interval_95`、`support_domain` 与 `unsupported_days`；不可估计时 `estimable=false` 并给出 `reason`。
 
 API 的 `rows` 是领域行，`summary` 是当前汇总，`notes` 是业务口径提示，`options` 是实际采用的筛选值。无记录使用空列表，不能把无观测偷偷表示为有效的零值。错误 JSON 的 `error` 可直接在页面反馈。
 

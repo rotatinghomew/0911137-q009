@@ -6,6 +6,26 @@
 <main>
 <form id="filters"><label>分析时点 <input name="cutoff" type="number" required></label><label>业务范围 <select name="group"></select></label><button type="submit">更新分析</button></form>
 <p id="status" role="status">正在读取资料</p>
+<section aria-label="用量曲线与转折">
+  <h2>日用量曲线与候选转折</h2>
+  <p class="hint">曲线为归整后的每日用量：累计表底只在同一表内与相邻表底作差，换表日分段；识别已调整气温与停工效应，弱观察不等于改造结论。点击曲线上的标记或下方按钮可确认、驳回或调整边界。</p>
+  <div id="chart"></div>
+  <div id="legend" class="legend"></div>
+  <h3>候选转折（识别证据）</h3>
+  <div id="candidates" class="scroll"></div>
+  <h3>已确认边界与节能量影响</h3>
+  <div id="boundaries" class="scroll"></div>
+  <h3>人工决策登记</h3>
+  <form id="decisionForm" class="decision">
+    <label>站点 <select name="site" required></select></label>
+    <label>边界（天序号） <input name="boundary" type="number" min="1" required></label>
+    <label>处理 <select name="status"><option value="confirmed">确认</option><option value="rejected">驳回</option></select></label>
+    <label class="grow">备注 <input name="note" maxlength="200" placeholder="例如：改造验收 / 季节性停产"></label>
+    <button type="submit">提交决策</button>
+  </form>
+  <p id="decisionStatus" role="status"></p>
+  <ul id="regimeNotes"></ul>
+</section>
 <section aria-label="当前分析"><h2>当前资料摘要</h2><dl id="summary"></dl><ul id="notes"></ul><p id="digest"></p><div id="results" class="scroll"></div></section>
 <section aria-label="保存的分析"><h2>分析版本</h2><form id="save"><label>版本名称 <input name="title" required maxlength="100" value="经营讨论"></label><button type="submit">保存当前分析</button></form><ul id="history"></ul></section>
 <section aria-label="原始资料"><h2>资料查阅</h2><label>资料表 <select id="tables"></select></label><button id="source" type="button">查看资料</button><div id="raw" class="scroll"></div></section>
